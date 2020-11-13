@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 from lib.util import *
 import fontTools.ttLib
-ttf=fontTools.ttLib.TTFont(file='NLI.ttf')
+ttf=fontTools.ttLib.TTFont(file='HOI.ttf')
 for a in ttf["fvar"].axes: a.axisTag = '0001'
 for a in ttf["STAT"].table.DesignAxisRecord.Axis: a.AxisTag = '0001'
 
@@ -11,5 +11,5 @@ for nr in ttf["name"].names:
     if nr.nameID in [256, 257, 258]:
         nr.string = names[nr.langID]
 
-ttf.save('NLI2.ttf')
+ttf.save('HOI2.ttf')
 eprint("Successfully mangled!")

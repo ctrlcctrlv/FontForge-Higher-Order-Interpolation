@@ -1,12 +1,14 @@
 # Higher-order interpolation, a.k.a. non-linear interpolation, in FontForge
 
+![](https://raw.githubusercontent.com/ctrlcctrlv/FontForge-Higher-Order-Interpolation/main/dist/FontForgeHOI.gif)
+
 > Mathematics belongs to God. ~ Donald Knuth
 
 Higher-order interpolation is a concept long thought to have benefits for type design, best explained by Underware in their April 2018 case study ["Higher Order Interpolation for Variable Fonts"](https://underware.nl/case-studies/hoi/). Credit is given to Underware for exciting users about the prospect of higher-order interpolation.
 
 This is a software implementation of higher-order interpolation using only free software: FontForge, fontmake, and the Python scripts in this repository. The implementors of HarfBuzz, for example, already knew that such higher-order implementation was in theory possible, and made their software correctly understand fonts with linked axes for the purpose of implementing them.
 
-Please see the companion YouTube video for more.
+Please see the [companion YouTube video](https://www.youtube.com/watch?v=m5z4sDECCGA) for more.
 
 # How this works
 
@@ -24,6 +26,28 @@ In a nutshell, `build.sh` does the following:
 * Python library `fonttools`
 
 As in all my fonts, only free software is used.
+
+# UI tool
+
+To receive the «Higher-Order Interpolation» item in the FontForge «Tools» menu, add `FF_HOI_UI.py` and the `lib/` directory to your FontForge Python directory. On my system, that is `~/.config/fontforge/python/`.
+
+# Changing glyph metrics along axis
+
+You can change the glyph metrics at different states of the animation by adding a special comment to your glyph. See an example in the `period` glyph:
+
+```json
+!!FRB FF HOIINFO v0
+{
+  "c1_rbearing": 550,
+  "c2_rbearing": 550,
+  "c3_rbearing": 750
+}
+```
+
+* `c1` = master A
+* `c2` = master B
+* `c3` = master C
+* rbearing in SFD file = master D
 
 # License
 
