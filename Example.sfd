@@ -1,0 +1,213 @@
+SplineFontDB: 3.2
+FontName: FRBFontForgeHOIExample
+FullName: FRBFontForgeHOIExample
+FamilyName: FRBFontForgeHOIExample
+Weight: Regular
+Copyright: Copyright (c) 2020, Fredrick R. Brennan\n\nApache 2 licensed, see distributed LICENSE.
+UComments: "2020-11-11: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 4
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+Layer: 2 0 "End state" 1
+Layer: 3 0 "HOI paths" 0
+XUID: [1021 640 1538074639 16750175]
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1605086139
+ModificationTime: 1605225623
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 0
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+OS2Vendor: 'PfEd'
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: ISO8859-1
+Compacted: 1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -96
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 0 8 2
+BeginPrivate: 0
+EndPrivate
+BeginChars: 256 3
+
+StartChar: period
+Encoding: 46 46 0
+Width: 1000
+Flags: H
+LayerCount: 4
+Fore
+SplineSet
+30 54 m 0
+ 30 84 54 108 84 108 c 0
+ 114 108 138 84 138 54 c 0
+ 138 24 114 0 84 0 c 0
+ 54 0 30 24 30 54 c 0
+EndSplineSet
+Layer: 2
+SplineSet
+708 54 m 4
+ 708 84 732 108 762 108 c 4
+ 792 108 816 84 816 54 c 4
+ 816 24 792 0 762 0 c 4
+ 732 0 708 24 708 54 c 4
+EndSplineSet
+Layer: 3
+SplineSet
+30 54 m 0
+NamedP: "0"
+ 1389.46191406 687.927734375 -651.461914062 687.927734375 708 54 c 1024
+84 0 m 0
+NamedP: "9"
+ 1443.46191406 633.927734375 -597.461914062 633.927734375 762 0 c 1024
+138 54 m 0
+NamedP: "6"
+ 1497.46191406 687.927734375 -543.461914062 687.927734375 816 54 c 1024
+84 108 m 0
+NamedP: "3"
+ 1443.46191406 741.927734375 -597.461914062 741.927734375 762 108 c 1024
+EndSplineSet
+Comment: "!!FRB FF HOIINFO v0+AAoA{+AAoA  +ACIA-c1_rbearing+ACIA: 550,+AAoA  +ACIA-c2_rbearing+ACIA: 550,+AAoA  +ACIA-c3_rbearing+ACIA: 750+AAoA}"
+EndChar
+
+StartChar: e
+Encoding: 101 101 1
+Width: 650
+Flags: HW
+LayerCount: 4
+Fore
+SplineSet
+611 249 m 5
+ 116 249 l 5
+ 122 141 217 55 329 55 c 4
+ 412 55 489 105 520 180 c 5
+ 597 180 l 5
+ 564 80 458 -13 331 -13 c 4
+ 169 -13 42 114 42 276 c 4
+ 42 435 167 560 326 560 c 4
+ 493 560 611 438 611 249 c 5
+118 316 m 5
+ 537 316 l 5
+ 512 425 431 492 325 492 c 4
+ 221 492 138 421 118 316 c 5
+EndSplineSet
+Layer: 2
+SplineSet
+611 249 m 1
+ 116 249 l 1
+ 122 141 217 55 329 55 c 0
+ 390 55 431 81 447 91 c 1
+ 447 14 l 1
+ 435 7 386 -13 331 -13 c 0
+ 169 -13 42 114 42 276 c 0
+ 42 435 167 560 326 560 c 0
+ 493 560 611 438 611 249 c 1
+118 316 m 1
+ 537 316 l 1
+ 512 425 431 492 325 492 c 0
+ 221 492 138 421 118 316 c 1
+EndSplineSet
+Layer: 3
+SplineSet
+458 -13 m 0
+NamedP: "10"
+ 430 -13 414 -13 386 -13 c 1024
+412 55 m 0
+NamedP: "5"
+ 403 55 399 55 390 55 c 1024
+489 105 m 0
+NamedP: "6"
+ 475 97 446 85 431 81 c 1024
+564 80 m 0
+NamedP: "9"
+ 538 42 480 9 435 7 c 1024
+597 180 m 0
+NamedP: "8"
+ 574 111 523 53 447 14 c 1024
+520 180 m 0
+NamedP: "7"
+ 505 146 485 117 447 91 c 1024
+EndSplineSet
+EndChar
+
+StartChar: colon
+Encoding: 58 58 2
+Width: 418
+Flags: HW
+LayerCount: 4
+Fore
+SplineSet
+137 243 m 1
+ 267 243 l 1
+ 267 111 l 1
+ 137 111 l 1
+ 137 243 l 1
+137 494 m 1
+ 267 494 l 1
+ 267 362 l 1
+ 137 362 l 1
+ 137 494 l 1
+EndSplineSet
+Layer: 2
+SplineSet
+201 270 m 25
+ 295 176 l 25
+ 203 84 l 25
+ 109 178 l 25
+ 201 270 l 25
+201 521 m 25
+ 295 427 l 25
+ 203 335 l 25
+ 109 429 l 25
+ 201 521 l 25
+EndSplineSet
+Layer: 3
+SplineSet
+137 111 m 0
+NamedP: "3"
+ 124 126 109 147 109 178 c 1024
+267 111 m 0
+NamedP: "2"
+ 253 97 230 84 203 84 c 1024
+267 243 m 0
+NamedP: "1"
+ 285 222 295 200 295 176 c 1024
+137 243 m 0
+NamedP: "0"
+ 155 260 176 270 201 270 c 1024
+137 362 m 0
+NamedP: "7"
+ 124 377 109 398 109 429 c 1024
+267 362 m 0
+NamedP: "6"
+ 253 348 230 335 203 335 c 1024
+267 494 m 0
+NamedP: "5"
+ 285 473 295 451 295 427 c 1024
+137 494 m 0
+NamedP: "4"
+ 155 511 176 521 201 521 c 1024
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

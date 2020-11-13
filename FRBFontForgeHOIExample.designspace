@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="0001" name="1" minimum="0" maximum="1000" default="0"/>
+    <axis tag="0002" name="2" minimum="0" maximum="1000" default="0" hidden="1"/>
+    <axis tag="0003" name="3" minimum="0" maximum="1000" default="0" hidden="1"/>
+  </axes>
+  <sources>
+    <source filename="FRBFontForgeHOIExample-D.ufo">
+      <location>
+        <dimension name="1" xvalue="1000"/>
+        <dimension name="2" xvalue="1000"/>
+        <dimension name="3" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="FRBFontForgeHOIExample-A.ufo">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="1" xvalue="0"/>
+        <dimension name="2" xvalue="0"/>
+        <dimension name="3" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="FRBFontForgeHOIExample-B.ufo">
+      <location>
+        <dimension name="1" xvalue="1000"/>
+        <dimension name="2" xvalue="0"/>
+        <dimension name="3" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="FRBFontForgeHOIExample-B.ufo">
+      <location>
+        <dimension name="1" xvalue="0"/>
+        <dimension name="2" xvalue="1000"/>
+        <dimension name="3" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="FRBFontForgeHOIExample-B.ufo">
+      <location>
+        <dimension name="1" xvalue="0"/>
+        <dimension name="2" xvalue="0"/>
+        <dimension name="3" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="FRBFontForgeHOIExample-C.ufo">
+      <location>
+        <dimension name="1" xvalue="1000"/>
+        <dimension name="2" xvalue="1000"/>
+        <dimension name="3" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="FRBFontForgeHOIExample-C.ufo">
+      <location>
+        <dimension name="1" xvalue="0"/>
+        <dimension name="2" xvalue="1000"/>
+        <dimension name="3" xvalue="1000"/>
+      </location>
+    </source>
+    <source filename="FRBFontForgeHOIExample-C.ufo">
+      <location>
+        <dimension name="1" xvalue="1000"/>
+        <dimension name="2" xvalue="0"/>
+        <dimension name="3" xvalue="1000"/>
+      </location>
+    </source>
+  </sources>
+</designspace>
