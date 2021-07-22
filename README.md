@@ -24,6 +24,7 @@ In a nutshell, `build.sh` does the following:
 * FontForge
 * `fontmake`
 * Python library `fonttools`
+* harfbuzz
 
 As in all my fonts, only free software is used.
 
